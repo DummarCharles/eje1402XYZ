@@ -15,6 +15,13 @@
         android:theme="@style/Theme.Eje1402"
         tools:targetApi="31">
         <activity
+            android:name=".frmManTipoUser"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".frmMainInvitado"
             android:exported="false">
             <meta-data

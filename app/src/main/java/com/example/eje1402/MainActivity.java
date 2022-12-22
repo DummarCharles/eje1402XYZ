@@ -38,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
         return cnn;
     }
 
+    public void EnvioPrueba(View view){
+        Intent x=new Intent(this,frmManTipoUser.class);
+        startActivity(x);
+    }
     public void Consulta(View view){
         try {
             Statement st=conexionBD().createStatement();
